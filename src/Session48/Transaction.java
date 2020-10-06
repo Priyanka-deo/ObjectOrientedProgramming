@@ -50,10 +50,10 @@ class Test8
 {
     public static void main(String[] args)
     {
-    Transaction tx = new Transaction("T-111","abc-123","Durga",
-             "Savings",25000);
-                tx.withdraw(10000);
-        System.out.println(tx);
+   // Transaction tx = new Transaction("T-111","abc-123","Durga",
+           //  "Savings",25000);
+              //  tx.withdraw(10000);
+      //  System.out.println(tx);
     }
 
 }

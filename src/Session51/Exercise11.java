@@ -19,6 +19,10 @@ public class Exercise11 {
 
 class Test14 {
     public static void main(String[] args) {
-        Exercise11 ex = new Exercise11();
+        Exercise11 ex1 = new Exercise11();
+        System.out.println();
+        Exercise11 ex2 = new Exercise11();
+        System.out.println();
+        Exercise11 ex3 = new Exercise11();
     }
 }

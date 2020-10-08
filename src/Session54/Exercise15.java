@@ -1,6 +1,7 @@
 package Session54;
 
 public class Exercise15 {
+    
     static int i = 10;
 
 }

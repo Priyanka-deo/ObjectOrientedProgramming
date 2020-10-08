@@ -14,7 +14,7 @@ public class Transaction {
 
 
     public Transaction(String tx_Id,String acc_No,String acc_HolderName,String acc_Type,
-                       int initial_Balance,int total_Balance,int wd_Amt)
+                       int initial_Balance)
     {
         txId = tx_Id;
         accNo = acc_No;
@@ -50,10 +50,10 @@ class Test8
 {
     public static void main(String[] args)
     {
-   // Transaction tx = new Transaction("T-111","abc-123","Durga",
-           //  "Savings",25000);
-              //  tx.withdraw(10000);
-      //  System.out.println(tx);
+   Transaction tx = new Transaction("T-111","abc-123","Durga",
+            "Savings",25000);
+                tx.withdraw(10000);
+                System.out.println(tx);
     }
 
 }

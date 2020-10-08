@@ -6,15 +6,15 @@ public class Exercise12 {
         this(10);
         System.out.println("A-con");
     }
-   // Exercise12(int i)
+    Exercise12(int i)
     {
-        //this(10);
+        this(10.0);
         System.out.println("A-int-param-con");
     }
     Exercise12(float f)
     {
         System.out.println("A-float-param-con");
-        //this(234.345);
+       // this(234.345);//must be first statement
     }
     Exercise12(double d)
     {

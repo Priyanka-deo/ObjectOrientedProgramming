@@ -6,6 +6,7 @@ public class Exercise16 {
     void m1()
     {
         //static int k = 30; static variable can not be local variable.
+
         System.out.println("m1.ex");
         System.out.println(this.i);
     }
@@ -17,5 +18,6 @@ class Test18
         Exercise16 ex1 = null;
         System.out.println(ex1.j);//null pointer exception
         System.out.println(ex1.i);//not getting null pointer exception in static variable
+        ex.m1();
     }
 }

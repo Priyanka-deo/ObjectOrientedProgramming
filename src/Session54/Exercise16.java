@@ -6,6 +6,8 @@ public class Exercise16 {
     void m1()
     {
         //static int k = 30; static variable can not be local variable.
+        System.out.println("m1.ex");
+        System.out.println(this.i);
     }
 }
 class Test18

@@ -7,13 +7,16 @@ public class Test31 {
         acc.setAccHolderName("Durga");
         acc.setAccType("Saving");
         acc.setBalance(25000);
-
         Employee2 emp = new Employee2();
         emp.setEno(111);
         emp.setEname("Durga");
-        emp.setEsal(15000);
         emp.setEaddr("Hyd");
+        emp.setEsal(15000);
         emp.setAccount(acc);
         emp.getEmpDetail();
+
+
+
+
     }
 }

@@ -1,5 +1,5 @@
 package collections;
-
+//public boolean add method
 import java.util.HashSet;
 
 public class Client22 {
